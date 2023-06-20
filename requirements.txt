@@ -1,0 +1,12 @@
+certifi
+charset-normalizer
+idna
+numpy
+pandas
+python-dateutil
+pytz
+requests
+six
+tqdm
+tzdata
+urllib3

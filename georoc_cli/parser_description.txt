@@ -1,0 +1,59 @@
+                ╔╦╗╦ ╦╔═╗  ╔═╗╔═╗╔═╗╦═╗╔═╗╔═╗  ╔╦╗╔═╗╔╦╗╔═╗╔╗ ╔═╗╔═╗╔═╗
+                 ║ ╠═╣║╣   ║ ╦║╣ ║ ║╠╦╝║ ║║     ║║╠═╣ ║ ╠═╣╠╩╗╠═╣╚═╗║╣
+                 ╩ ╩ ╩╚═╝  ╚═╝╚═╝╚═╝╩╚═╚═╝╚═╝  ═╩╝╩ ╩ ╩ ╩ ╩╚═╝╩ ╩╚═╝╚═╝
+                 (Geochemistry of Rocks of the Oceans and Continents)
+
+            ═══════════════════════════════════════════════════════════════════════════════════════════════════════════════════
+
+                Here are a few additional notes:
+
+                - For an appropriate more advanced use of this CLI programme, pleas use the -m flag
+                  for the manual in this programme. (I expand an appropriate Manuel regularly.)
+
+                - To use the CLI program an API key is necessary which must be stored in the script config.py
+                  in the variable "api_key". To get the API key, please contact the DIGIS GEOROC team.
+
+                - The Limit parameter refers to the number of SampleIDs.
+
+                - It is necessary to use 2 - 3 sample options.
+
+                - After executing a command, a file named "georoc_data_{Y-m-d_H-M-S}.csv" is created in the
+                  local folder "Georoc_Datasets" (default) with the data you want to include. If you wish, you can
+                  also specify a desired path. In addition, a duplicate of the dataset is created, which has been
+                  structured, pivoted and the NaN values replaced with zeros.
+
+                - All parameters for the sample flags must be written in capital letters.
+
+                - All parameters for the JSON keys must be written as they were stored in the directory.
+                  Here is the possibility to simply copy and paste them as desired.
+
+                Here is an example command:
+
+                python3 georoc_cli.py \\
+                --limit "3" \\
+                --location1 "EAST AFRICAN RIFT" \\
+                --location2 "ETHIOPIAN RIFT" \\
+                --setting "RIFT VOLCANICS" \\
+                --key Item_Name \\
+                --key Values \\
+                --key Units \\
+                --key Longitude \\
+                --key Latitude
+
+                Information about the current version:
+
+                - The first version is designed to extract primarily geochemical numerical data through the API.
+                  In the command example above, you can see from the --key flags that this works well.
+
+                - If you only want the data for a specific publication, you can use the --doi filter parameter, which works well.
+
+                - The program is currently designed for flat JSON structures, which means that nested structures
+                  such as for the "References" or "Loc_Data" flag will not be passed to the csv file in a structured way.
+
+                - The GEOROC database and the associated API interface are developed on a regular basis. If the program
+                  does not work as usual, visit the API documentation.
+
+                - The program and the server need about 7 seconds to retrieve the data per sample ID. If you want
+                  to retrieve a lot of data, feel free to get a c[_]. 
+
+            ═══════════════════════════════════════════════════════════════════════════════════════════════════════════════════
