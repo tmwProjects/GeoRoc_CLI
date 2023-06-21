@@ -21,6 +21,7 @@ for flat JSON structures, which means that nested structures are not passed to t
 <a href="https://www.buymeacoffee.com/tmwcontactQ"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" height="20.4px"></a>
 
 ***
+
 ## Content
 
 * [Usage](#usage)
