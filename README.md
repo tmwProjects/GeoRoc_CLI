@@ -11,7 +11,10 @@ for flat JSON structures, which means that nested structures are not passed to t
 
 [![License](https://img.shields.io/badge/license-MIT-blue)](./LICENSE)
 ![GitHub Repo stars](https://img.shields.io/github/stars/tmwProjects/GeoRoc_CLI?style=social) 
-![GitHub followers](https://img.shields.io/github/followers/tmwProjects?style=social) 
+![GitHub followers](https://img.shields.io/github/followers/tmwProjects?style=social)
+<a href="https://datasci.social/@tmwProjects">
+  <img src="https://img.shields.io/mastodon/follow/110580864516294518?domain=https://datasci.social&style=social" alt="Mastodon follow">
+</a>
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/w/tmwProjects/GeoRoc_CLI) 
 [![Visit my site](https://img.shields.io/badge/Visit%20my%20site-Online-important)](https://tmwprojects.github.io/)
 [![Donate on Liberapay](https://img.shields.io/badge/Donate-Liberapay-yellow)](https://liberapay.com/tmwProjects/donate)
