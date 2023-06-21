@@ -45,7 +45,7 @@ $ python3 georoc_cli.py --help
         / _    _ \
        /    _     \
       / _  GEOROC 2.0 CLI
-     /     v.1.0.0  \
+     /     v.0.0.1  \
     /                \
     
 usage: python3 georoc_cli.py --sample-option "OPTION" --key "key1" --key "key2"

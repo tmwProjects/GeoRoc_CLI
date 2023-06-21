@@ -135,7 +135,7 @@ if __name__ == "__main__":
         / _    _ \\
        /    _     \\
       / _  GEOROC 2.0 CLI
-     /     v.1.0.0  \\
+     /     v.0.0.1  \\
     /                \\
     """
     print(title)
